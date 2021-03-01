@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    font-size: 6em;    
+}
+h2 {
+    font-size: 2em;
+}
+/* clases NO atadas */
+.color-red {
+  color: red;  
+}
+/* clases atadas */
+
+p.color-gold{
+    color: gold
+}
+
+div {
+    width: 460px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+/* shadows-into-light-regular - latin */
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/shadows-into-light-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/shadows-into-light-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/shadows-into-light-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/shadows-into-light-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/shadows-into-light-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/shadows-into-light-v10-latin-regular.svg#ShadowsIntoLight') format('svg'); /* Legacy iOS */
+  }
+  p{
+      font-size: 1.5em;
+      text-align: justify;
+      margin-right: 2em;
+      margin-left: 2em;
+  }
+  p{
+      font-family: 'Shadows Into Light', Verdana, Geneva, Tahoma, sans-serif;
+  }
+  p.germania {
+      font-family: 'Germania One', cursive;
+  }
+  p.shadow {
+      font-family:  'Shadows Into Light', Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .fondo-amarillo {
+      width: 300px;
+      height: 50px;
+      background-color: yellow;
+  }
+  .fondo-azul {
+      width: 300px;
+      height: 50px;
+      background-color: blue;
+  }
+  .fondo-rojo {
+    width: 300px;
+    height: 50px;
+    background-color: red;
+  }
+  .fondo-purpura-rgb {
+    width: 300px;
+    height: 50px;
+      background-color: rgb(134, 3, 106);
+  }
+  .fondo-azul-cielo-rgb {
+    width: 300px;
+    height: 50px;
+      background-color: rgb(0, 225, 255);
+  }
+  .fondo-naranja-rgb {
+    width: 300px;
+    height: 50px;
+      background-color: rgb(255, 102, 0);
+  }
+  .fondo-1-hx {
+    width: 300px;
+    height: 50px;
+    background-color: #193043;    
+  }
+  .fondo-2-hx {
+    width: 300px;
+    height: 50px;
+    background-color: #55C658;    
+  }
+  .fondo-3-hx {
+    width: 300px;
+    height: 50px;
+    background-color: #6F2447;    
+  }
+ 
+  
